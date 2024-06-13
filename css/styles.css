@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+    font-style: italic;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+    font-style: arial;
+    color: #fff;
+    
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: black;
+    border-radius: 5px;
+}
+
+.valor {
+    color: green;
+}
+
+.produto-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center; 
+}
+
+.product {
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #333;
+    margin-top: 50px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+.botao-de-compra {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.botao-de-compra:hover {
+    background-color: #0056b3;
+}
+.cadeira {
+    color: orange;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.pc {
+    color: orange;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.mouse {
+    color: orange;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.teclado {
+    color: orange;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.mousepad {
+    color: orange;
+    text-decoration: none;
+    padding: 10px;
+}
+
+h3 {
+    color: red;
+}
+
+.logo {
+    width: 10px;
+    height: 20px;
+}
+.video {
+    text-align: center;
+    padding-top: 40px;
+    border-radius: 100px;
+}
